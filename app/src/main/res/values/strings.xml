@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Smart Entertainment System</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+    <string name="title_activity_episode_details">EpisodeDetails</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="checkPositive">&#x2714;</string>
+    <string name="checkNegative">&#x2716;</string>
+
+
+    <string name="eztv">EzTV</string>
+    <string name="zooqle">Zooqle</string>
+    <string name="tpb">TPB</string>
+    <string name="yts">YTS</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_header_sources">Sources</string>
+
+    <string name="pref_header_tor_proxy">Tor proxy</string>
+
+    <string name="pref_header_tmdbapi">TMDb API</string>
+
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

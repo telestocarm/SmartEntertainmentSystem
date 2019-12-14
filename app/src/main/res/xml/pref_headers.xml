@@ -1,0 +1,16 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="io.github.movietorrentsearch.SettingsActivity$SourcesPreferenceFragment"
+        android:title="@string/pref_header_sources"
+        android:icon="@drawable/ic_web_black_24dp"/>
+
+    <header
+        android:fragment="io.github.movietorrentsearch.SettingsActivity$TorProxyPreferenceFragment"
+        android:title="@string/pref_header_tor_proxy"
+        android:icon="@drawable/ic_vpn_key_black_24dp"/>
+
+
+</preference-headers>

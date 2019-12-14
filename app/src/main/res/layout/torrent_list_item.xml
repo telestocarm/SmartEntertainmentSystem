@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/filesize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/vidquality"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:text="File size: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/vidquality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/torrenthealth"
+        android:singleLine="true"
+        android:layout_marginBottom="1dp"
+        android:textColor="#ffffff"
+        android:text="Video quality: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/torrenthealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:singleLine="true"
+        android:text="Torrent health: "
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
+
